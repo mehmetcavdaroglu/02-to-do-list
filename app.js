@@ -1,3 +1,11 @@
+/*
+    e.target.classList.toggle("checked") - Eğer class ismi olarak 'checked' varsa kaldır, yoksa ekle.
+    localStorage.setItem('data', listContainer.innerHTML) - Lokal olarak data isminde bir alana kayıt yapıyoruz.
+    localStorage.getItem('data') - data ismindeki alanda bulunan değeri getirir.
+    e.target.parentElement.remove() - Seçili elementin parentını kaldırır.
+    e.target.tagName - seçili elementin etiket ismini verir.
+*/
+
 const inputBox = document.getElementById('input-box');
 const listContainer = document.getElementById('list-container');
 
